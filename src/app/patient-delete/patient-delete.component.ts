@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class PatientDeleteComponent {
 
+  Patientid=""
+
+  readValue=()=>
+  {
+    let data:any=
+    {
+      "Patientid":this.Patientid
+    }
+    console.log(data)
+  }
+
+
 }
